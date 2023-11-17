@@ -1,7 +1,93 @@
 .introducao-bg {
-   background: var(--cor-5);
+   background: var(--cor-11);
+   box-shadow: inset 0 -120px var(--cor-0);
    
-   
-   
-
 }
+
+.introducao {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;    
+
+      height: px;
+      margin: 10px;
+
+      margin-right: 20px;
+ }
+
+ .introducao img { 
+           width: 100%;
+           height: 100%;
+           object-fit: cover;
+           border-radius: 4px;
+ }
+
+
+ .introducao-conteudo { 
+             display: grid;
+             padding-bottom: 200px;
+ }
+
+
+ .introducao h1 {
+         padding-top: 15px;
+         margin-bottom: 20px;
+         text-align: center;
+         color: var(--cor-1);
+ }
+
+
+ .introducao p {
+         margin-bottom: 30px;
+         color: var(--cor-1);         
+ }
+
+
+ .introducao a {
+         display: inline-block;
+         place-self: end;
+       
+         color: var(--cor-10);
+          background: var(--cor-2);
+          padding: 5px 10px;
+          border-radius: 4px;
+          
+ }
+
+
+ .introducao a:hover {
+   color: var(--cor-11);
+    background: var(--cor-0);
+    padding: 5px 10px;
+    border-radius: 4px;
+
+    transition: 0.8s;
+}
+
+
+
+
+ @media (max-width: 800px) {
+            .introducao-bg {
+                    box-shadow: inset 0 -60px var(--cor-0);
+
+            }      
+    
+          .introducao {
+                grid-template-columns: 1fr;
+                gap: 32px;
+                margin-right: 15px;
+          }
+            
+          .introducao-conteudo { 
+                     padding: 0px;
+
+          }
+
+          .introducao img {
+            height: 300px;
+            width: 100%;
+
+    }
+ }
+
