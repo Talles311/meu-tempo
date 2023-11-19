@@ -1,5 +1,5 @@
 .header-bg {
-   background-color: var(--cor-8);
+   background-color: var(--cor-11);
 }
 
 .header {
@@ -7,8 +7,9 @@
      flex-wrap: wrap;
      gap: 20px;
      align-items: center;
-     justify-content: center;
+     justify-content: space-between;
      
+     margin-left: 20px;
     
      padding-top: 20px;
      padding-bottom: 10px;
