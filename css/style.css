@@ -3,3 +3,6 @@
 @import './utilidades/cores.css';
 @import './home/introducao.css';
 
+/*Diário*/
+
+@import '../cards-diario/diario.css';

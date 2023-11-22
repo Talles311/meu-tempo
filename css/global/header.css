@@ -9,25 +9,24 @@
      align-items: center;
      justify-content: space-between;
      
-     margin-left: 20px;
-    
-     padding-top: 20px;
-     padding-bottom: 10px;
-     padding-right: 20px;
+     padding: 5px 30px 5px 30px;
+
+      margin-left: auto;
+      margin-right: auto;
 
 } 
 
 .header-menu {
       display: flex;
       flex-wrap: wrap;
-      gap: 40px;
+      gap: 20px;
 
 }
 
 .header-menu a {
       display: inline-block;
       color: var(--cor-1);
-      padding: 4px;
+      padding: 8px 8px;
       border-radius: 4px;
 }
 
@@ -39,7 +38,7 @@
 
 @media (max-width: 600px) {
   
-  
+     
 
    .header {
            justify-content: center;
@@ -51,7 +50,7 @@
   }
 
   .header-menu {
-        gap: 12px;
+        gap: 10px;
   }
   
 }
