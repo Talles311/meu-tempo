@@ -2,7 +2,10 @@
 @import './global/header.css';
 @import './utilidades/cores.css';
 @import './home/introducao.css';
+@import './global/footer.css';
 
 /*Diário*/
 
 @import '../cards-diario/diario.css';
+@import '../cards/card.css';
+
