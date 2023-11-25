@@ -5,19 +5,18 @@
 }
 
 .diario {
-     display: grid;
-     grid-template-columns: 1fr ; 
+      display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr; 
 
       gap: 20px;
 
       margin-top: 10px;
+      margin-bottom: 400px;
+
       box-sizing: border-box;
      
       max-width: 1200px;
       
-      padding-left: 20px;
-      padding-right: 20px; 
-
       margin-left: auto;
       margin-right: auto;
 
@@ -26,34 +25,45 @@
 
 .card-1 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 5px;     
-    padding: 20px;
+    grid-template-columns: 1fr ;
+   
 
-    background-color: var(--cor-3);  
+    gap: 2px;     
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(255, 255, 0, 0.192);  
 
-    box-shadow: 0px 0px 1px 2px rgba(0, 0, 0, 0.192);
+    border-radius: 5px; 
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.384);
 } 
 
 .card-2 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr ;
     gap: 5px;
-    padding: 20px;
-    background-color: var(--cor-3);
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(255, 255, 0, 0.192);
+    border-radius: 5px;
 
-    box-shadow: 0px 0px 1px 2px rgba(0, 0, 0, 0.192);
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.384);
 
 }
 
 
 .diario-conteudo {
+        display: grid;
         padding: 8px;
         padding-right: 20px; 
+
+
 }
 
 .diario-conteudo h1 {
-        font-size: 1.5rem;
+        font-size: 1rem;
+        grid-row: 1;
         grid-column: 1;
         margin-bottom: 20px; 
 }
@@ -68,15 +78,14 @@
 
 
 .diario img {
-   
-   width: 100%; 
-   height: 100%;
-   object-fit: cover; 
-   border-radius: 4px;
-   
-   box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.288);
+  width: 100%;
+   margin-bottom: 10px;  
+   border-radius: 6px;
+   box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.432);
 }
 
+
+/*
 
 @media (max-width:1200px) {
      .card-1,
@@ -101,3 +110,4 @@
     }
 
 }
+*/
