@@ -1,6 +1,12 @@
 @import './global/global.css';
 @import './global/header.css';
+
+
+/*utilidades*/
 @import './utilidades/cores.css';
+@import './utilidades/botao.css';
+
+
 @import './home/introducao.css';
 @import './global/footer.css';
 
@@ -8,4 +14,11 @@
 
 @import '../cards-diario/diario.css';
 @import '../cards/card.css';
+
+
+/*Imagem*/
+  
+@import'../imagem/imagem.css';
+@import '../imagem/bologna/bologna.css';
+
 

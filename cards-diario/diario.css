@@ -5,7 +5,7 @@
 }
 
 .diario {
-      display: grid;
+    display: grid;
      grid-template-columns: 1fr 1fr 1fr 1fr; 
 
       gap: 20px;
@@ -69,10 +69,13 @@
 }
 
 .diario-conteudo p {
+         display: grid;
+         
         grid-column: 1;
          margin-bottom: 10px;
-         justify-items: center;         
-
+         justify-items: left;   
+         padding: 2px;     
+        
 }
 
 

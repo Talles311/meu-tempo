@@ -1,0 +1,27 @@
+
+
+.catalogo {
+        margin-left: 100px;
+        margin-right: 100px;
+
+
+
+
+}
+
+.catalogo-conteudo {
+         display: grid;
+
+         grid-template-columns: 1fr 1fr 1fr 1fr ;
+         gap: 10px 60px;
+         margin-top: 20px;
+         
+
+         margin-left: auto;
+         margin-right: auto;
+
+         margin-bottom: 20px;
+
+}
+
+
